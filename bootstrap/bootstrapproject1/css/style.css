@@ -1,0 +1,19 @@
+
+.navbar-dark .navbar-nav .nav-link{
+color: rgb(255 255 255) !important;
+font-weight: 400;
+}
+.c-item{
+    height: 500px;
+    
+    
+   
+}
+.c-img{
+    height: 100%;
+    -o-object-fit:contain;
+    filter: brightness(0.6);
+    
+
+
+}

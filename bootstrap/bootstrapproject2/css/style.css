@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@500;700&display=swap');
+*body{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#nav-bar{
+    background-color:#E3BC43 !important;
+    padding:0 8%;
+    font-family: 'Comfortaa', sans-serif;
+
+
+}
+.nav-item  a{
+    font-size: 20px;
+    font-weight:300 ;
+   
+  
+}
+.nav-item{
+    
+padding:20px;
+}
+#search-box{
+    background-color: #F5B800;
+    color:white;
+    /* color:F6F1F8; */
+    font-size: 20px;
+    font-weight:300 ;
+    font-family: 'Comfortaa', sans-serif;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left:48px;
+    box-shadow: 5px 9px 14px 0px #333333;
+    
+}
+#search-box::placeholder{
+    color:white;
+}
+#search-btn{
+    /* background-color:#7A9DB8; */
+    background-color: #00bec9;
+    position:relative;
+    z-index: 99;
+    color:white;
+    border:0px;
+    border-radius: 0px;
+}
+/* css banner */
+
+#banner{
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #F5B800;
+    padding-bottom: 20px;
+  
+}
+#banner-text h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+#banner-text p{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+#banner-btn1{
+    background-color: #00bec9;
+    border:2px solid #00bec9;
+    color:white;
+
+}
+#banner-btn2{
+    
+    border:2px solid white;
+    color:white;
+    margin-left: 15px;
+
+}
+/* service area css */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color: #F5B800;
+    border:2px solid #F5B800;
+}
+#service-img{
+    
+    position:relative;
+    top:12px;
+    padding-top: 5%;
+    z-index:99;
+    
+
+}
+#service-img1{
+    background-color: #F5B800;
+    padding-top: 5%;
+    position:relative;
+    top:50px;
+    right:390px;
+    
+    
+
+}
+
+
+
+
+
+/* media query of navbar */
+
+@media only screen and  (max-width:998px) {
+    
+    #search-form{
+            margin-bottom: 30px;
+            margin-top: 20px;
+            position: relative;
+            left:-20px;
+        } 
+        
+}
+
+
+@media only screen and  (max-width:500px) {
+    
+    #nav-bar{
+            padding:0px;
+        } 
+}
+
+@media only screen and (max-width:1044px) {
+    #banner-text h1{
+        font-size:30px ;
+    }
+    #banner{
+        padding-bottom: 30px;
+    }
+
+}
