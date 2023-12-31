@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            background-color: rgb(233, 202, 202);
+            color: rgb(13, 11, 11);
+            height: 65px;
+            width: 100% position: fixed;
+            top: 0px;
+            left: 0px;
+            margin: auto;
+
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .menu ul li a {
+
+            text-decoration: none;
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+        }
+        .menu ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            background-color: grey;
+        }
+
+        }
+
+        .image {
+
+            width: 40px;
+            height: 40px;
+            repeat: no repeat;
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="navbar">
+            <div class="image">
+                <picture>
+                    <image src="image3.png" alt="logo">
+                </picture>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="list"><a href="#home">Home</a>
+                    </li>
+                    <li class="list"><a href="#about">About</a>
+                    </li>
+                    <li class="list"><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

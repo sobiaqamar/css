@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 10vh 90vh;
+        
+    }
+    ul{
+        display:inline-grid;
+        grid-template-columns: auto auto auto;
+    }
+    ul li{
+        list-style: none;
+        padding:0px 20px
+    }
+
+    .header {
+        background-color: aqua;
+    }
+
+    .body {
+
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+  
+        background-color: yellowgreen;
+        justify-content: space-between;
+    }
+
+    .right {
+        background-color: blueviolet;
+    }
+
+    .left {
+        background-color: brown;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>About Us</li>
+
+            </ul>
+        </div>
+
+        <div class="body">
+            <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eaque incidunt, soluta
+                perferendis suscipit voluptate consequuntur beatae quidem quam mollitia expedita veritatis aut facilis
+                adipisci cum cumque, nam impedit itaque.23</div>
+            <div class="left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dignissimos corporis veritatis nemo
+                tempora
+                doloremque illum, magnam placeat doloribus mollitia nesciunt molestiae iusto!
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
